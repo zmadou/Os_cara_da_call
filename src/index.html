@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Perfil: Os cara da call</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="./scripts/main.js" defer></script>
 </head>
 <body>
-    <h1>olá</h1>
-    <img src="./images/background.png" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logo.png" alt="OS CARA DA CALL">
+            <p class="hero__text">O aniversário do membro <span id="membro"></span> será em: <span id="contador"></span></p>
+        </div>
+        <div class="infos-bar">
+            <a href="#" class="button button--primary">Inscreva-se</a>
+        </div>
+    </header>
+    <section class="member member--zmadou">
+        <div class="container" data-aos="fade-right">
+            <div class="member__info">
+                <h2 class="member__info__title">
+                    zMadou
+                </h2>
+                <p class="member__info__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae possimus architecto nisi quas in iste beatae voluptate consectetur reiciendis perspiciatis soluta ad quidem aperiam, exercitationem ullam, minima saepe facilis nihil.
+                </p>
+            </div>
+            <img class="member__image" src="./images/zmadou.png" alt="zMadou">
+        </div>
+    </section>
+
+    <section class="member member--lululee member--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="member__info">
+                <h2 class="member__info__title">
+                    Lululee
+                </h2>
+                <p class="member__info__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae possimus architecto nisi quas in iste beatae voluptate consectetur reiciendis perspiciatis soluta ad quidem aperiam, exercitationem ullam, minima saepe facilis nihil.
+                </p>
+            </div>
+            <img class="member__image" src="./images/lululee.png" alt="Lululee">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 </body>
 </html>
